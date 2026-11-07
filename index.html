@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CÁPSULA — Colección Esencial</title>
+  <meta name="description" content="Prendas atemporales de edición limitada. Confección consciente, materiales nobles y diseño esencial.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="franja-aviso" class="banner-superior">
+    3 y 6 cuotas sin interés · 15% OFF con código CAPSULA 15
+  </div>
+
+  <header class="cabecera">
+    <div class="contenedor cabecera-fila">
+      <a href="#/" class="logo">CÁPSULA</a>
+      <nav class="navegacion" aria-label="Navegación principal">
+        <a href="#/" class="nav-enlace" id="nav-coleccion">Colección</a>
+        <a href="#/medios-pago" class="nav-enlace" id="nav-pagos">Medios de pago</a>
+        <a href="#/envios" class="nav-enlace" id="nav-envios">Envíos</a>
+        <a href="#/carrito" class="icono-bolsa" id="enlace-bolsa" aria-label="Bolsa de compras">
+          <span>Bolsa</span>
+          <span class="contador-bolsa" id="contador-bolsa">0</span>
+        </a>
+      </nav>
+      <button id="btn-salida-directa" class="visually-hidden" type="button">No puedo continuar con la compra</button>
+    </div>
+  </header>
+
+  <main id="vista-principal" class="contenedor"></main>
+
+  <div id="banner-promocion-pie"></div>
+  <div id="modal-guia-contenedor"></div>
+
+  <footer class="pie-sitio">
+    <div class="contenedor">
+      <div class="pie-columnas">
+        <div>
+          <div class="pie-marca">CÁPSULA</div>
+          <p>Indumentaria esencial de diseño minimalista. Piezas pensadas para perdurar en el tiempo mediante materiales de origen noble.</p>
+        </div>
+        <div>
+          <div class="pie-titulo">Ayuda</div>
+          <ul class="pie-lista">
+            <li><a href="#/envios">Envíos</a></li>
+            <li><a href="#/cambios">Cambios y devoluciones</a></li>
+            <li><a href="#/medios-pago">Medios de pago</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="pie-titulo">Contacto</div>
+          <ul class="pie-lista">
+            <li><a href="#/contacto">Atención al cliente</a></li>
+            <li><span>Lunes a viernes 9 a 18 hs</span></li>
+          </ul>
+        </div>
+        <div>
+          <div class="pie-titulo">Sesión</div>
+          <ul class="pie-lista">
+            <li><a href="#/fin" id="enlace-salida" class="enlace-salida">Finalizar sesión</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="pie-base">
+        <span>© 2026 CÁPSULA. Edición limitada.</span>
+        <span>Buenos Aires, Argentina</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="productos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
